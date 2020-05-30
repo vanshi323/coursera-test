@@ -27,13 +27,18 @@ div{
 }
 p{
 	font-size: 20px;
-	border: 5px solid black;
+	border-bottom: 5px solid black;
+	border-left: 5px solid black;
 	position: absolute;
 	color: brown;
 	background-color: beige;
 	 top: 0px;
 	 right: 0px;
 	margin-bottom: 60px;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+
 }
 @media (max-width: 767px){
 	.row,.row2,.row3{
